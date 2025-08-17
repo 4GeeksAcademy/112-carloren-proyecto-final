@@ -36,7 +36,7 @@ export const Home = () => {
 				<div className="row g-4 py-5 row-cols-1 row-cols-lg-3">
 					<div className="feature col d-flex flex-column">
 						<div className="border rounded-4 text-bg-primary fs-4 mb-3 py-2 px-3 mx-auto">
-							<i class="bi bi-pin-angle"></i>
+							<i className="bi bi-pin-angle"></i>
 						</div>
 						<h3 className="fs-2 text-body-emphasis">Quiénes somos</h3>
 						<p>ReBusque es un marketplace que conecta trabajadores informales con usuarios que necesitan servicios a domicilio de forma segura, rápida y eficiente.</p>
@@ -44,7 +44,7 @@ export const Home = () => {
 
 					<div className="feature col d-flex flex-column">
 						<div className="border rounded-4 text-bg-primary fs-4 mb-3 py-2 px-3 mx-auto">
-							<i class="bi bi-bullseye"></i>
+							<i className="bi bi-bullseye"></i>
 						</div>
 						<h3 className="fs-2 text-body-emphasis">Objetivo</h3>
 						<p>Ser una plataforma accesible e intuitiva que permita solicitar o brindar servicios a domicilio, 
@@ -53,7 +53,7 @@ export const Home = () => {
 
 					<div className="feature col d-flex flex-column">
 						<div className="border rounded-4 text-bg-primary fs-4 mb-3 py-2 px-3 mx-auto">
-							<i class="bi bi-search"></i>
+							<i className="bi bi-search"></i>
 						</div>
 						<h3 className="fs-2 text-body-emphasis">Cómo funciona</h3>
 						<p>Como usuario podrás buscar filtrando por tipo de servicio o cercanía.
