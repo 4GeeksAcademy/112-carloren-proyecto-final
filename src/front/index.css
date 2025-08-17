@@ -1,0 +1,3 @@
+.text-justify {
+  text-align: justify; /*Por algún motivo a bootstrap no le gusta y no tiene justificación de texto*/
+}
