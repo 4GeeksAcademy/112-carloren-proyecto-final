@@ -2,6 +2,32 @@ export const initialStore = () => {
   return {
     message: null,
     authState: 2,
+    workers: [
+      {
+        name: "Carlos",
+        surname: "Lorenzo Moreno",
+        email: "carlos@email.com",
+        phone: "+34678912345",
+        works: ["fontanería", "pintura", "limpieza"],
+        image: "https://cdn.pixabay.com/photo/2023/02/18/11/00/icon-7797704_640.png",
+      },
+      {
+        name: "Judith",
+        surname: "Ramírez Pachón",
+        email: "judith@email.com",
+        phone: "+34654321987",
+        works: ["cocina", "decoración", "carpintería"],
+        image: "https://cdn.pixabay.com/photo/2023/02/18/11/00/icon-7797704_640.png",
+      },
+      {
+        name: "Luis",
+        surname: "Guilarte",
+        email: "luis@email.com",
+        phone: "+34639528417",
+        works: ["jardinería", "carpintería", "limpieza"],
+        image: "https://cdn.pixabay.com/photo/2023/02/18/11/00/icon-7797704_640.png",
+      },
+    ],
   };
 };
 

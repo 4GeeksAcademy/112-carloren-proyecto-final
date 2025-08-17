@@ -5,7 +5,7 @@ export const Navbar = () => {
 	const { store, dispatch } = useGlobalReducer()
 
 	const profileDrop = store.authState === 0 ?
-		<div>< button className="btn btn-primary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
+		<div>< button className="btn btn-primary rounded-5 dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
 			<i className="fa-regular fa-user"></i>
 		</button >
 			<ul className="dropdown-menu dropdown-menu-end">
@@ -15,7 +15,7 @@ export const Navbar = () => {
 		</div>
 		:
 		<div>
-			<button className="btn btn-primary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+			<button className="btn btn-primary rounded-5 dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 				<i className="fa-solid fa-user"></i>
 			</button>
 			<ul className="dropdown-menu dropdown-menu-end py-0">
@@ -54,8 +54,8 @@ export const Navbar = () => {
 						</li>
 					</ul>
 					<form className="d-flex mb-2 mb-lg-0" role="search">
-						<input className="form-control me-2" type="search" placeholder="Buscar" aria-label="Search" />
-						<button className="btn btn-dark me-2" type="submit">Buscar</button>
+						<input className="form-control me-2 rounded-5" type="search" placeholder="Buscar" aria-label="Search" />
+						<button className="btn btn-dark rounded-5 me-2" type="submit">Buscar</button>
 					</form>
 					<li className="nav-link dropdown text-end">
 						{profileDrop}
