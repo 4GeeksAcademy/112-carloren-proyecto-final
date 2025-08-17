@@ -1,3 +1,9 @@
 .text-justify {
   text-align: justify; /*Por algún motivo a bootstrap no le gusta y no tiene justificación de texto*/
 }
+
+.inline-limit {
+    white-space: nowrap;
+    overflow: hidden;                   /*Controlo mejor el contenido y el tamaño de las cards si todo está en una sola línea y controlo el overflow*/
+    text-overflow: ellipsis;
+}
