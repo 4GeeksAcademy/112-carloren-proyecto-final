@@ -10,8 +10,8 @@ export const Discover = () => {
     return (
         <div className="text-center mt-5 container">
             <form className="d-flex w-100 mb-3" role="search">
-                <input className="form-control me-2" type="search" placeholder="Buscar un servicio" aria-label="Search" />
-                <button className="btn btn-dark btn-lg me-2" type="submit">Buscar</button>
+                <input className="form-control me-2 rounded-5" type="search" placeholder="Buscar un servicio" aria-label="Search" />
+                <button className="btn btn-dark btn-lg me-2 rounded-5" type="submit">Buscar</button>
             </form>
         </div>
     );
