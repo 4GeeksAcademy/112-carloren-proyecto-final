@@ -1,7 +1,8 @@
 export const initialStore = () => {
   return {
     message: null,
-    authState: 2,
+    authState: 0,
+    searchValue: "",
     workers: [
       {
         id: 1,
@@ -119,6 +120,12 @@ export default function storeReducer(store, action = {}) {
       return {
         ...store,
         authState: 0,
+      };
+
+    case "search":
+      return {
+        ...store,
+        searchValue: action.payload,
       };
     default:
       throw Error("Unknown action.");
